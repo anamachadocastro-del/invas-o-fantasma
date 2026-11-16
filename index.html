@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Você decide o futuro da IA</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="palco">
+  <header class="topo">
+    <svg width="30" height="30" viewBox="0 0 40 40" aria-hidden="true"><rect x="6" y="9" width="28" height="24" rx="9" fill="var(--ac)"/><circle cx="15" cy="21" r="3" fill="var(--on)"/><circle cx="25" cy="21" r="3" fill="var(--on)"/><circle cx="20" cy="5" r="3" fill="var(--ac2)"/></svg>
+    <span>Você decide o futuro da IA</span>
+  </header>
+
+  <main class="caixa-principal">
+    <div class="tela-inicial">
+      <svg class="hero" viewBox="0 0 200 150" aria-hidden="true">
+        <circle cx="100" cy="76" r="66" fill="var(--halo)"/>
+        <path d="M100 24v12" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <circle class="pulse" cx="100" cy="19" r="6" fill="var(--ac)"/>
+        <rect x="50" y="36" width="100" height="82" rx="28" fill="var(--pn)" stroke="var(--ink)" stroke-width="4"/>
+        <rect x="36" y="66" width="10" height="26" rx="5" fill="var(--ac2)"/>
+        <rect x="154" y="66" width="10" height="26" rx="5" fill="var(--ac2)"/>
+        <g class="olho"><circle cx="78" cy="72" r="9" fill="var(--ink)"/><circle cx="81" cy="69" r="3" fill="var(--pn)"/></g>
+        <g class="olho"><circle cx="122" cy="72" r="9" fill="var(--ink)"/><circle cx="125" cy="69" r="3" fill="var(--pn)"/></g>
+        <path d="M84 95q16 12 32 0" fill="none" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path class="brilho" d="M168 28l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="var(--ac)"/>
+        <path class="brilho" style="animation-delay:.8s" d="M30 38l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill="var(--ac2)"/>
+      </svg>
+      <h1>Você decide o futuro da IA</h1>
+      <p>Uma inteligência artificial capaz de criar textos, imagens e vozes chegou à sua rotina. A cada decisão, a história muda. Será que você consegue concluir a missão?</p>
+      <button class="iniciar-btn">Iniciar</button>
+    </div>
+
+    <div class="caixa-perguntas"></div>
+    <div class="caixa-alternativas"></div>
+
+    <div class="caixa-resultado">
+      <h2 class="titulo-resultado"></h2>
+      <p class="texto-resultado"></p>
+      <button class="novamente-btn">Recomeçar do início</button>
+      <button class="creditos-btn">Ver créditos</button>
+    </div>
+
+    <div class="tela-creditos">
+      <h2>Créditos</h2>
+      <p><strong>Jogo:</strong> Você decide o futuro da IA</p>
+      <p><strong>Roteiro e programação:</strong> Isabella Spelier e Ana Luiza</p>
+      <p><strong>Turma:</strong> 3º ano do Ensino Médio</p>
+      <p><strong>Escola:</strong> [Nome da escola]</p>
+      <p><strong>Disciplina:</strong> Matemática II — Programação</p>
+      <p><strong>Professor:</strong> Fábio Cesar Bimbati</p>
+      <p><strong>Referências:</strong> Alura, Google Classroom, Gemini (IA) e Claude (IA)</p>
+      <p>Obrigado por jogar!</p>
+      <button class="voltar-inicio-btn">Voltar à tela inicial</button>
+    </div>
+  </main>
+</div>
+<script type="module" src="js/script.js"></script>
+</body>
+</html>
